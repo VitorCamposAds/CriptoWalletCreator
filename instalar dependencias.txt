@@ -1,0 +1,18 @@
+Navegue até o diretório do projeto: Primeiro, certifique-se de estar no diretório do projeto onde o arquivo createWallet.js está localizado.
+
+bash
+Copiar código
+cd <diretório do projeto>
+Inicialize um novo projeto Node.js (se ainda não o fez): Se ainda não tiver um package.json, você pode criar um com o comando abaixo. Isso é útil para garantir que o npm gere um arquivo package.json onde você possa listar suas dependências.
+
+bash
+Copiar código
+npm init -y
+Instale as dependências: Execute os seguintes comandos para instalar as bibliotecas necessárias:
+
+bash
+Copiar código
+npm install bip39 bip32 bitcoinjs-lib
+Isso adicionará bip39, bip32 e bitcoinjs-lib às dependências do seu projeto e atualizará o arquivo package.json e o arquivo package-lock.json.
+
+Verifique se as dependências foram instaladas: Após a instalação, você pode verificar se as bibliotecas foram corretamente adicionadas às dependências no seu package.json. Eles devem aparecer na seção "dependencies".
